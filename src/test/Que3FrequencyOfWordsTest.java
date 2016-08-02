@@ -13,7 +13,8 @@ public class Que3FrequencyOfWordsTest {
 	@Test
 	public void test() {
 		ArrayList<String> list=Que3FrequencyOfWords.getTheFrequentWordList();
-		System.out.println("#############################################");
+		System.out.println("###########################################");
+		
 		for(String str:list){
 			System.out.println(str);
 		}
